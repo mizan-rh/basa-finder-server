@@ -2,6 +2,7 @@ import { Router } from 'express';
 import { UserRoutes } from '../modules/User/user.route';
 import { AuthRoutes } from '../modules/Auth/auth.route';
 import { RentalHouseRoutes } from '../modules/rentalHouse/rentalHouse.route';
+import { PaymentRoutes } from '../modules/payment/payment.routes';
 
 const router = Router();
 
@@ -14,7 +15,12 @@ const moduleRoutes = [
   {
     // path: '/rental-houses',
     path: '/landlords',
-    route: RentalHouseRoutes, // RentalHouseRoutes CRUD operations
+    route: RentalHouseRoutes, 
+  },
+  {
+    // path: '/payment',
+    path: '/payment',
+    route: PaymentRoutes, 
   },
   {
     // path: '/users',
