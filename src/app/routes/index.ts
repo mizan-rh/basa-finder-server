@@ -1,8 +1,9 @@
 import { Router } from 'express';
-import { UserRoutes } from '../modules/User/user.route';
 import { AuthRoutes } from '../modules/Auth/auth.route';
-import { RentalHouseRoutes } from '../modules/rentalHouse/rentalHouse.route';
 import { PaymentRoutes } from '../modules/payment/payment.routes';
+import { RentalHouseRoutes } from '../modules/rentalHouse/rentalHouse.route';
+import { RentalRequestRoutes } from '../modules/rentalRequest/rentalRequest.route';
+import { UserRoutes } from '../modules/User/user.route';
 
 const router = Router();
 
@@ -15,12 +16,17 @@ const moduleRoutes = [
   {
     // path: '/rental-houses',
     path: '/landlords',
-    route: RentalHouseRoutes, 
+    route: RentalHouseRoutes,
+  },
+  {
+    // path: '/rental-request',
+    path: '/',
+    route: RentalRequestRoutes, // RentalReques Routes CRUD operations
   },
   {
     // path: '/payment',
     path: '/payment',
-    route: PaymentRoutes, 
+    route: PaymentRoutes,
   },
   {
     // path: '/users',
