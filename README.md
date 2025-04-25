@@ -1,4 +1,6 @@
+
 # 🛡️ Project Name:Basa Finder – Secure Notes API
+
 
 A secure, scalable, and modern RESTful API built with **Node.js**, **Express**, **Mongoose**, and **TypeScript**. This API allows users to create, read, update, and delete encrypted notes, ensuring full control and privacy over their data.
 
@@ -167,9 +169,9 @@ Each module is well-documented with clear comments for better developer experien
 
 - invoice – Auto-generation after payments
 
-```
-```
+
 # 📁 Folder Structure
+
 
 src/
 ├── controllers/     # Route handlers
@@ -183,7 +185,10 @@ src/
 └── index.ts         # Entry point
 
 ```
+
+
 ```
+
 
 # 📡 API Endpoints
 
