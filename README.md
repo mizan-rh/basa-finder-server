@@ -8,8 +8,9 @@ A secure, scalable, and modern RESTful API built with **Node.js**, **Express**, 
 
 ## 🚀 Live API
 
-🌐 (https://basa-finder-server.vercel.app/)
-
+🌐 Live Links:  
+  - Frontend:  https://basa-finder-client-swart.vercel.app/
+  - Backend: https://basa-finder-server.vercel.app/
 ## Admin credential
 
 - email: admin@gmail.com
@@ -29,7 +30,7 @@ A secure, scalable, and modern RESTful API built with **Node.js**, **Express**, 
 
 ## 📹 Video Explanation
 
-🎥 [Watch the demo](https://your-video-link.com)
+🎥 https://drive.google.com/file/d/1jiBl2UpD-TrCa1krCAycYrNtGPCqLQMH/view?usp=sharing 
 
 ---
 
