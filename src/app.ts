@@ -13,7 +13,9 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: ['http://localhost:5173', 'http://localhost:3000', 'https://basa-finder-client-swart.vercel.app'],
+    origin: ['http://localhost:5173', 'http://localhost:3000', 'https://basa-finder-client-swart.vercel.app',
+      'https://basa-finder-client-beta.vercel.app'
+    ],
     credentials: true,
   }),
 );
